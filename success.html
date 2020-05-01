@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Treads</title>
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="libraries/xzoom/xzoom.css" />
+    <link rel="stylesheet" href="libraries/gijgo/css/gijgo.min.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-dark">
+        <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+          <a href="#" class="navbar-brand">
+            <img src="images/Logo.png" alt="Logo Treads" />
+          </a>
+        </div>
+        <ul class="navbar-nav mr-auto d-none d-lg-block">
+          <li>
+            <span class="text-muted">
+              | &nbsp; Beyond The Explorer of The World
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section class="section-success d-flex align-items-center">
+        <div class="col text-center">
+          <img src="images/Mail.png" alt="" />
+          <h2 class="mt-4">Yay! Success</h2>
+          <p class="mb-2">
+            We've sent you email for trip
+            <br />
+            instruction please read it as well
+          </p>
+          <a href="index.html" class="btn btn-home-page mt-4">
+            Home Page
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script src="libraries/retina/retina.min.js"></script>
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="libraries/xzoom/xzoom.min.js"></script>
+    <script src="libraries/gijgo/js/gijgo.min.js"></script>
+
+    <!-- Gallery -->
+    <script>
+      $(document).ready(function () {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 300,
+          title: false,
+          tint: "#333",
+          Xoffset: 15,
+        });
+
+        $(".datepicker").datepicker({
+          uiLibrary: "bootstrap4",
+          icons: {
+            rightIcon:
+              '<img src="images/ic-doe.png" alt="" style="height:18px";background-color: #ebebeb; border: 0px; />',
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

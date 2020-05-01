@@ -1,0 +1,434 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #000b30;
+  line-height: 1.65;
+  font-size: 16px;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar {
+  background-color: #000b30;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff 0, 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  width: 140px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #0023a0;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #002092;
+  color: #fff;
+}
+
+header {
+  padding: 210px 0 157px;
+  margin-top: -70px;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: "DM Serif Display", serif;
+}
+
+.btn-get-started {
+  padding: 16px 36px;
+  background-color: #ff9f0f;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.btn-get-started:hover {
+  background-color: #f39200;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  background-color: #fff;
+}
+
+.section-stats h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-stats p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.section-popular {
+  margin-top: -65px;
+  background: #000517;
+  min-height: 540px;
+  margin-bottom: -200px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #a6a6a6;
+  color: #fff;
+  background-size: cover;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-view-details {
+  background-color: #ff9f0f;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 0;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-view-details:hover {
+  background-color: #f39200;
+}
+
+.section-networks {
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 24px;
+}
+
+.section-networks h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonials-heading {
+  padding-top: 64px;
+}
+
+.section-testimonials-heading h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+}
+
+.section-testimonials-content {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.section-testimonials-content .card-testimonial {
+  padding: 40px 20px 24px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+
+.section-testimonials-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonials-content .card-testimonial img {
+  max-height: 80px;
+}
+
+.section-testimonials-content .card-testimonial h3 {
+  font-size: 16px;
+}
+
+.section-testimonials-content .card-testimonial .testimonials {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  color: #a6a6a6;
+  min-height: 210px;
+}
+
+.section-testimonials-content .card-testimonial .trip-to {
+  font-size: 14px;
+  color: #a6a6a6;
+}
+
+.section-testimonials-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonials-content .btn-need-help {
+  padding: 16px 36px;
+  background-color: #ebebeb;
+  color: #a6a6a6;
+  border-radius: 6px;
+}
+
+.section-testimonials-content .btn-need-help:hover {
+  background-color: #e0e0e0;
+  color: #a6a6a6;
+}
+
+.section-footer {
+  margin-top: 64px;
+}
+
+.section-footer li,
+.section-footer a {
+  color: #a6a6a6;
+  font-size: 16px;
+}
+
+.text-footers {
+  color: #a6a6a6;
+  font-size: 16px;
+}
+
+.section-details-header {
+  min-height: 350px;
+  background: #dee6ff;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0px;
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.section-details-content .breadcrumb .breadcrumb-item.active {
+  font-weight: 700;
+  color: #000b30;
+}
+
+.section-details-content .card-details {
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.section-details-content .card-details .trip-informations th {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000b30;
+}
+
+.section-details-content .card-details .trip-informations td {
+  font-size: 16px;
+  color: #a6a6a6;
+}
+
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #0023a0;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-informations .text-orange {
+  color: #ff9f0f;
+  font-weight: bold;
+}
+
+.section-details-content .card-details h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+}
+
+.section-details-content .card-details h3 {
+  font-size: 24px;
+}
+
+.section-details-content .card-details p {
+  color: #a6a6a6;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 8px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #dee6ff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .features {
+  margin-top: 46px;
+}
+
+.section-details-content .features h4 {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .icon-details {
+  width: 46px;
+  height: 46px;
+  float: left;
+}
+
+.section-details-content .join-container {
+  margin-top: -20px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #ff9f0f;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 0 0 16px 16px;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #f39200;
+  color: #ffffff;
+}
+
+.section-details-content .bank .bank-item h6 {
+  font-size: 16px;
+  color: #000b30;
+  margin-bottom: 0px;
+}
+
+.section-details-content .bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.section-details-content .bank .bank-item .description {
+  margin-left: 22px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .bank .bank-item .description p {
+  font-size: 14px;
+  text-align: left;
+}
+
+.section-details-content .bank .bank-item .bank-image {
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+
+.section-details-content .btn-add-now {
+  background-color: #0023a0;
+  color: #ffffff;
+}
+
+.section-details-content .btn-add-now:hover {
+  background-color: #002092;
+}
+
+.section-success {
+  height: 80vh;
+}
+
+.section-success img {
+  max-height: 250px;
+}
+
+.section-success h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+}
+
+.section-success p {
+  color: #a6a6a6;
+}
+
+.section-success .btn-home-page {
+  padding: 16px 38px;
+  border-radius: 6px;
+  background-color: #ff9f0f;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #f39200;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
